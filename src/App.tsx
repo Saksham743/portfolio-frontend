@@ -371,7 +371,7 @@ const App = () => {
                     <div className="space-y-1">
                       <div className="font-semibold">Saksham Rathod</div>
                       <div className="text-emerald-600 text-xs font-mono tracking-widest uppercase">AVAILABLE</div>
-                      <div className="text-[11px] text-zinc-500 leading-none">Robotics & Automation • Year 2</div>
+                      <div className="text-[11px] text-zinc-500 leading-none">Robotics & Automation</div>
                     </div>
                   </div>
 
