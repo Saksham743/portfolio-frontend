@@ -873,7 +873,7 @@ const App = () => {
                   </div>
                 </a>
 
-                <a href="https://www.instagram.com/saksham_rathod74/" target="_blank" rel="noopener" className="group flex gap-6 items-start hover:text-violet-600 transition-colors">
+                <a href="https://www.instagram.com/build_with_saksham/" target="_blank" rel="noopener" className="group flex gap-6 items-start hover:text-violet-600 transition-colors">
                   <div className="w-12 h-12 bg-zinc-100 rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:bg-pink-100 transition-colors">
                     <Instagram className="w-6 h-6 text-zinc-500 group-hover:text-pink-600" />
                   </div>
