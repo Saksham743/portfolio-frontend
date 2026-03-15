@@ -878,9 +878,9 @@ const App = () => {
                     <Instagram className="w-6 h-6 text-zinc-500 group-hover:text-pink-600" />
                   </div>
                   <div>
-                    <div className="text-sm font-medium mb-0.5">@saksham_rathod74</div>
+                    <div className="text-sm font-medium mb-0.5">@build_with_saksham</div>
                     <div className="text-zinc-600">DMs open • Reply Within 24h</div>
-                    <div className="mt-2.5 text-amber-500 text-xs">✦ Latest Reel: 42k views</div>
+                    <div className="mt-2.5 text-amber-500 text-xs">✦ Latest Reel: - views</div>
                   </div>
                 </a>
 
