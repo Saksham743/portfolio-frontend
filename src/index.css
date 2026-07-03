@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0b0d10;
+  --color-panel: #0f1217;
+  --color-raise: #141922;
+  --color-line: #1d232e;
+  --color-line-soft: #171c25;
+  --color-accent: #4d8dff;
+  --color-accent-soft: #79aaff;
+  --color-violet: #8b7cf6;
+  --color-mist: #9aa5b4;
+  --color-faint: #5f6b7c;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-ink);
+  color: #e7ecf3;
+  font-family: var(--font-sans);
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(77, 141, 255, 0.28);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0d10;
+}
+::-webkit-scrollbar-thumb {
+  background: #232a36;
+  border-radius: 8px;
+  border: 2px solid #0b0d10;
+}
+
+/* Fine dot grid used behind hero + section headers */
+.dot-grid {
+  background-image: radial-gradient(rgba(154, 165, 180, 0.13) 1px, transparent 1px);
+  background-size: 26px 26px;
+}
+
+.hairline-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, #f4f7fb 30%, #9fb9e8 70%, #8b7cf6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glow-accent {
+  box-shadow: 0 0 0 1px rgba(77, 141, 255, 0.25), 0 8px 40px -12px rgba(77, 141, 255, 0.35);
+}
+
+.card-hover {
+  transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  border-color: rgba(77, 141, 255, 0.35);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px -18px rgba(77, 141, 255, 0.25);
+}
+
+@keyframes pulse-node {
+  0%, 100% { opacity: 0.35; }
+  50% { opacity: 1; }
+}
+
+@keyframes flow-dash {
+  to { stroke-dashoffset: -24; }
+}
+
+.flow-line {
+  stroke-dasharray: 4 8;
+  animation: flow-dash 1.6s linear infinite;
+}
+
+@keyframes drift {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+
+.mono-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
