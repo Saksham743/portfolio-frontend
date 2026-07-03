@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181C25"></stop>
+      <stop offset="100%" stop-color="#0F131B"></stop>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5EA5FF"></stop>
+      <stop offset="100%" stop-color="#3A86FF"></stop>
+    </linearGradient>
+
+    <radialGradient id="dot">
+      <stop offset="0%" stop-color="#C49BFF"></stop>
+      <stop offset="100%" stop-color="#8B5CF6"></stop>
+    </radialGradient>
+  </defs><rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)" stroke="#2B3342" stroke-width="2"></rect><path d="M18 46 L32 18 L46 46" fill="none" stroke="url(#accent)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="32" cy="46" r="5.4" fill="url(#dot)"></circle></svg>
